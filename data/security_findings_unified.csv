@@ -1,0 +1,251 @@
+Source,Category,Severity,Status,Assigned_Team,Repo/Account,Opened_At,MTTR_Hours,tool_url
+GHAS,Misconfiguration,Critical,Closed,CloudSec,backend-api,2025-09-07T10:00:00,14,https://example.com/ghas/1
+GHAS,Misconfiguration,Low,Open,DevSecOps,web-frontend,2025-09-19T10:00:00,65,https://example.com/ghas/2
+GHAS,SOCAlert,High,Closed,SOC,api-gateway,2025-09-18T10:00:00,58,https://example.com/ghas/3
+Cortex,ThreatIntel,Critical,Open,SOC,infra-iac,2025-09-25T10:00:00,20,https://example.com/cortex/4
+AWS_SecurityHub,CodeScanning,Medium,Open,DevSecOps,infra-iac,2025-10-05T10:00:00,45,https://example.com/aws_securityhub/5
+Cortex,CodeScanning,Critical,Closed,CloudSec,api-gateway,2025-10-08T10:00:00,11,https://example.com/cortex/6
+Cortex,CodeScanning,Medium,Closed,DevSecOps,web-frontend,2025-11-13T10:00:00,30,https://example.com/cortex/7
+Cortex,ThreatIntel,Critical,Open,DevSecOps,infra-iac,2025-10-18T10:00:00,47,https://example.com/cortex/8
+AWS_SecurityHub,CodeScanning,Medium,In Progress,DevSecOps,mobile-app,2025-11-06T10:00:00,22,https://example.com/aws_securityhub/9
+AWS_SecurityHub,Misconfiguration,High,In Progress,CloudSec,mobile-app,2025-11-16T10:00:00,42,https://example.com/aws_securityhub/10
+GHAS,ThreatIntel,High,Open,CloudSec,infra-iac,2025-08-29T10:00:00,28,https://example.com/ghas/11
+Cortex,SOCAlert,High,Closed,CloudSec,infra-iac,2025-09-08T10:00:00,34,https://example.com/cortex/12
+AWS_SecurityHub,ThreatIntel,High,Closed,SOC,api-gateway,2025-11-03T10:00:00,55,https://example.com/aws_securityhub/13
+Numonix,SOCAlert,Medium,Open,DevSecOps,api-gateway,2025-09-01T10:00:00,7,https://example.com/numonix/14
+GHAS,CodeScanning,High,Closed,DevSecOps,infra-iac,2025-10-09T10:00:00,49,https://example.com/ghas/15
+Numonix,ThreatIntel,Medium,Closed,DevSecOps,web-frontend,2025-11-11T10:00:00,44,https://example.com/numonix/16
+GHAS,CodeScanning,Medium,In Progress,DevSecOps,infra-iac,2025-09-23T10:00:00,65,https://example.com/ghas/17
+AWS_SecurityHub,Misconfiguration,Critical,Closed,CloudSec,api-gateway,2025-09-09T10:00:00,48,https://example.com/aws_securityhub/18
+AWS_SecurityHub,CodeScanning,Critical,Closed,CloudSec,infra-iac,2025-09-04T10:00:00,47,https://example.com/aws_securityhub/19
+Cortex,CodeScanning,High,Open,DevSecOps,api-gateway,2025-08-31T10:00:00,63,https://example.com/cortex/20
+GHAS,Misconfiguration,High,Open,SOC,infra-iac,2025-09-23T10:00:00,68,https://example.com/ghas/21
+Numonix,ThreatIntel,High,Closed,SOC,backend-api,2025-10-11T10:00:00,48,https://example.com/numonix/22
+Numonix,CodeScanning,Low,Open,DevSecOps,backend-api,2025-10-03T10:00:00,3,https://example.com/numonix/23
+AWS_SecurityHub,Misconfiguration,High,Open,DevSecOps,web-frontend,2025-08-29T10:00:00,5,https://example.com/aws_securityhub/24
+Cortex,SOCAlert,Critical,Closed,DevSecOps,mobile-app,2025-09-17T10:00:00,70,https://example.com/cortex/25
+AWS_SecurityHub,Misconfiguration,Low,Open,CloudSec,infra-iac,2025-09-02T10:00:00,13,https://example.com/aws_securityhub/26
+Numonix,CodeScanning,Medium,In Progress,CloudSec,infra-iac,2025-11-15T10:00:00,13,https://example.com/numonix/27
+GHAS,Misconfiguration,Low,Closed,CloudSec,web-frontend,2025-09-14T10:00:00,25,https://example.com/ghas/28
+Numonix,SOCAlert,High,In Progress,DevSecOps,mobile-app,2025-09-21T10:00:00,10,https://example.com/numonix/29
+Numonix,CodeScanning,Critical,Open,SOC,api-gateway,2025-09-01T10:00:00,31,https://example.com/numonix/30
+AWS_SecurityHub,SOCAlert,Low,In Progress,CloudSec,backend-api,2025-08-28T10:00:00,22,https://example.com/aws_securityhub/31
+Numonix,ThreatIntel,Critical,In Progress,CloudSec,infra-iac,2025-10-14T10:00:00,72,https://example.com/numonix/32
+Numonix,CodeScanning,High,Open,CloudSec,backend-api,2025-11-03T10:00:00,70,https://example.com/numonix/33
+GHAS,SOCAlert,Medium,Open,DevSecOps,api-gateway,2025-10-24T10:00:00,68,https://example.com/ghas/34
+AWS_SecurityHub,CodeScanning,Critical,Closed,DevSecOps,backend-api,2025-11-05T10:00:00,9,https://example.com/aws_securityhub/35
+AWS_SecurityHub,CodeScanning,Low,Open,SOC,backend-api,2025-11-08T10:00:00,11,https://example.com/aws_securityhub/36
+Numonix,Misconfiguration,Medium,In Progress,DevSecOps,mobile-app,2025-09-23T10:00:00,51,https://example.com/numonix/37
+AWS_SecurityHub,CodeScanning,Medium,In Progress,CloudSec,web-frontend,2025-10-18T10:00:00,13,https://example.com/aws_securityhub/38
+GHAS,ThreatIntel,High,Closed,CloudSec,backend-api,2025-08-29T10:00:00,32,https://example.com/ghas/39
+Cortex,ThreatIntel,Medium,Open,CloudSec,api-gateway,2025-11-07T10:00:00,68,https://example.com/cortex/40
+GHAS,ThreatIntel,Medium,Closed,DevSecOps,backend-api,2025-09-04T10:00:00,14,https://example.com/ghas/41
+AWS_SecurityHub,ThreatIntel,Medium,In Progress,SOC,backend-api,2025-09-16T10:00:00,34,https://example.com/aws_securityhub/42
+Numonix,ThreatIntel,Medium,Open,DevSecOps,infra-iac,2025-08-26T10:00:00,1,https://example.com/numonix/43
+Cortex,SOCAlert,High,Closed,CloudSec,backend-api,2025-10-30T10:00:00,55,https://example.com/cortex/44
+GHAS,CodeScanning,Critical,Open,SOC,backend-api,2025-10-07T10:00:00,71,https://example.com/ghas/45
+AWS_SecurityHub,ThreatIntel,Low,Open,DevSecOps,mobile-app,2025-08-26T10:00:00,46,https://example.com/aws_securityhub/46
+AWS_SecurityHub,SOCAlert,High,Closed,DevSecOps,mobile-app,2025-11-08T10:00:00,20,https://example.com/aws_securityhub/47
+AWS_SecurityHub,Misconfiguration,High,Open,CloudSec,web-frontend,2025-10-02T10:00:00,53,https://example.com/aws_securityhub/48
+AWS_SecurityHub,SOCAlert,Medium,Open,SOC,web-frontend,2025-08-25T10:00:00,61,https://example.com/aws_securityhub/49
+AWS_SecurityHub,Misconfiguration,High,In Progress,CloudSec,mobile-app,2025-09-18T10:00:00,4,https://example.com/aws_securityhub/50
+AWS_SecurityHub,ThreatIntel,Low,In Progress,CloudSec,web-frontend,2025-10-04T10:00:00,66,https://example.com/aws_securityhub/51
+Numonix,Misconfiguration,Medium,Open,DevSecOps,mobile-app,2025-11-03T10:00:00,34,https://example.com/numonix/52
+GHAS,ThreatIntel,Critical,Closed,CloudSec,mobile-app,2025-10-15T10:00:00,66,https://example.com/ghas/53
+GHAS,CodeScanning,Low,Closed,DevSecOps,mobile-app,2025-11-19T10:00:00,56,https://example.com/ghas/54
+GHAS,ThreatIntel,High,In Progress,CloudSec,web-frontend,2025-11-08T10:00:00,41,https://example.com/ghas/55
+GHAS,ThreatIntel,Medium,Closed,CloudSec,infra-iac,2025-10-11T10:00:00,38,https://example.com/ghas/56
+AWS_SecurityHub,Misconfiguration,High,In Progress,SOC,infra-iac,2025-11-07T10:00:00,39,https://example.com/aws_securityhub/57
+Numonix,SOCAlert,Critical,In Progress,CloudSec,backend-api,2025-11-03T10:00:00,42,https://example.com/numonix/58
+Numonix,SOCAlert,Low,In Progress,SOC,backend-api,2025-09-11T10:00:00,11,https://example.com/numonix/59
+Cortex,Misconfiguration,Medium,Open,DevSecOps,mobile-app,2025-09-15T10:00:00,19,https://example.com/cortex/60
+GHAS,CodeScanning,Critical,Open,CloudSec,api-gateway,2025-10-18T10:00:00,54,https://example.com/ghas/61
+AWS_SecurityHub,Misconfiguration,Low,In Progress,CloudSec,backend-api,2025-11-12T10:00:00,1,https://example.com/aws_securityhub/62
+GHAS,SOCAlert,Low,Open,DevSecOps,api-gateway,2025-08-27T10:00:00,72,https://example.com/ghas/63
+AWS_SecurityHub,ThreatIntel,Critical,In Progress,DevSecOps,infra-iac,2025-10-16T10:00:00,65,https://example.com/aws_securityhub/64
+Numonix,SOCAlert,Low,Open,SOC,infra-iac,2025-09-23T10:00:00,32,https://example.com/numonix/65
+Cortex,SOCAlert,Low,Closed,DevSecOps,mobile-app,2025-08-30T10:00:00,37,https://example.com/cortex/66
+AWS_SecurityHub,CodeScanning,Medium,In Progress,CloudSec,api-gateway,2025-09-07T10:00:00,20,https://example.com/aws_securityhub/67
+AWS_SecurityHub,CodeScanning,Low,Closed,DevSecOps,backend-api,2025-10-13T10:00:00,53,https://example.com/aws_securityhub/68
+Cortex,SOCAlert,Low,In Progress,DevSecOps,backend-api,2025-10-09T10:00:00,3,https://example.com/cortex/69
+Numonix,SOCAlert,Low,Open,CloudSec,mobile-app,2025-10-13T10:00:00,69,https://example.com/numonix/70
+AWS_SecurityHub,SOCAlert,Low,Open,CloudSec,infra-iac,2025-08-24T10:00:00,50,https://example.com/aws_securityhub/71
+Cortex,Misconfiguration,Low,Closed,DevSecOps,infra-iac,2025-11-08T10:00:00,69,https://example.com/cortex/72
+GHAS,CodeScanning,Low,Closed,SOC,web-frontend,2025-11-11T10:00:00,55,https://example.com/ghas/73
+AWS_SecurityHub,SOCAlert,Low,Open,DevSecOps,mobile-app,2025-10-01T10:00:00,28,https://example.com/aws_securityhub/74
+Numonix,SOCAlert,Medium,In Progress,CloudSec,mobile-app,2025-09-22T10:00:00,11,https://example.com/numonix/75
+Numonix,ThreatIntel,Critical,Closed,SOC,web-frontend,2025-09-18T10:00:00,9,https://example.com/numonix/76
+GHAS,Misconfiguration,Critical,Open,DevSecOps,web-frontend,2025-09-20T10:00:00,17,https://example.com/ghas/77
+Numonix,ThreatIntel,Critical,Closed,DevSecOps,infra-iac,2025-10-07T10:00:00,22,https://example.com/numonix/78
+GHAS,CodeScanning,High,In Progress,DevSecOps,api-gateway,2025-09-29T10:00:00,49,https://example.com/ghas/79
+Numonix,CodeScanning,High,Open,SOC,backend-api,2025-11-18T10:00:00,39,https://example.com/numonix/80
+GHAS,ThreatIntel,Critical,In Progress,SOC,infra-iac,2025-08-29T10:00:00,65,https://example.com/ghas/81
+Cortex,SOCAlert,Critical,In Progress,CloudSec,web-frontend,2025-10-06T10:00:00,59,https://example.com/cortex/82
+AWS_SecurityHub,ThreatIntel,Low,Open,SOC,api-gateway,2025-11-07T10:00:00,69,https://example.com/aws_securityhub/83
+Numonix,ThreatIntel,Low,In Progress,SOC,api-gateway,2025-10-01T10:00:00,32,https://example.com/numonix/84
+GHAS,SOCAlert,Medium,In Progress,DevSecOps,infra-iac,2025-10-03T10:00:00,4,https://example.com/ghas/85
+Numonix,ThreatIntel,Medium,Open,CloudSec,backend-api,2025-09-23T10:00:00,44,https://example.com/numonix/86
+Cortex,Misconfiguration,Medium,Closed,DevSecOps,api-gateway,2025-08-31T10:00:00,31,https://example.com/cortex/87
+Numonix,SOCAlert,Low,Closed,DevSecOps,infra-iac,2025-10-17T10:00:00,3,https://example.com/numonix/88
+GHAS,ThreatIntel,Medium,Open,CloudSec,backend-api,2025-11-13T10:00:00,48,https://example.com/ghas/89
+Numonix,ThreatIntel,Medium,In Progress,SOC,api-gateway,2025-10-05T10:00:00,59,https://example.com/numonix/90
+Cortex,Misconfiguration,Medium,In Progress,DevSecOps,web-frontend,2025-09-30T10:00:00,16,https://example.com/cortex/91
+AWS_SecurityHub,ThreatIntel,High,Open,SOC,infra-iac,2025-11-04T10:00:00,68,https://example.com/aws_securityhub/92
+Cortex,ThreatIntel,Critical,Open,CloudSec,backend-api,2025-09-12T10:00:00,39,https://example.com/cortex/93
+GHAS,ThreatIntel,High,In Progress,DevSecOps,web-frontend,2025-11-18T10:00:00,17,https://example.com/ghas/94
+Numonix,SOCAlert,Critical,Open,SOC,mobile-app,2025-10-21T10:00:00,57,https://example.com/numonix/95
+Cortex,CodeScanning,High,Open,CloudSec,infra-iac,2025-08-29T10:00:00,52,https://example.com/cortex/96
+Numonix,Misconfiguration,Critical,Closed,SOC,web-frontend,2025-09-09T10:00:00,39,https://example.com/numonix/97
+GHAS,Misconfiguration,High,Open,SOC,infra-iac,2025-10-26T10:00:00,49,https://example.com/ghas/98
+Numonix,ThreatIntel,Low,In Progress,SOC,infra-iac,2025-11-01T10:00:00,8,https://example.com/numonix/99
+GHAS,CodeScanning,High,Closed,DevSecOps,mobile-app,2025-09-10T10:00:00,31,https://example.com/ghas/100
+AWS_SecurityHub,SOCAlert,Critical,Open,DevSecOps,infra-iac,2025-11-17T10:00:00,61,https://example.com/aws_securityhub/101
+Cortex,SOCAlert,Critical,Open,CloudSec,mobile-app,2025-08-30T10:00:00,30,https://example.com/cortex/102
+Cortex,Misconfiguration,High,In Progress,DevSecOps,api-gateway,2025-11-11T10:00:00,20,https://example.com/cortex/103
+Cortex,ThreatIntel,High,Open,DevSecOps,backend-api,2025-11-05T10:00:00,37,https://example.com/cortex/104
+Numonix,SOCAlert,Critical,In Progress,SOC,mobile-app,2025-09-24T10:00:00,65,https://example.com/numonix/105
+Numonix,SOCAlert,Low,Open,SOC,web-frontend,2025-10-01T10:00:00,33,https://example.com/numonix/106
+GHAS,CodeScanning,Critical,Open,SOC,api-gateway,2025-11-15T10:00:00,35,https://example.com/ghas/107
+GHAS,ThreatIntel,High,In Progress,SOC,infra-iac,2025-09-13T10:00:00,56,https://example.com/ghas/108
+Numonix,ThreatIntel,Critical,In Progress,CloudSec,infra-iac,2025-10-01T10:00:00,14,https://example.com/numonix/109
+AWS_SecurityHub,ThreatIntel,Medium,In Progress,SOC,infra-iac,2025-11-13T10:00:00,52,https://example.com/aws_securityhub/110
+GHAS,ThreatIntel,Low,Open,CloudSec,mobile-app,2025-09-04T10:00:00,52,https://example.com/ghas/111
+GHAS,ThreatIntel,Low,In Progress,DevSecOps,backend-api,2025-11-08T10:00:00,64,https://example.com/ghas/112
+Numonix,Misconfiguration,Critical,Open,CloudSec,api-gateway,2025-09-26T10:00:00,57,https://example.com/numonix/113
+Numonix,Misconfiguration,Critical,Open,SOC,api-gateway,2025-11-19T10:00:00,21,https://example.com/numonix/114
+Cortex,Misconfiguration,Critical,Closed,CloudSec,web-frontend,2025-09-04T10:00:00,60,https://example.com/cortex/115
+GHAS,ThreatIntel,High,In Progress,SOC,mobile-app,2025-10-13T10:00:00,62,https://example.com/ghas/116
+Numonix,SOCAlert,High,In Progress,SOC,backend-api,2025-09-14T10:00:00,66,https://example.com/numonix/117
+AWS_SecurityHub,ThreatIntel,Critical,In Progress,CloudSec,mobile-app,2025-08-21T10:00:00,37,https://example.com/aws_securityhub/118
+Cortex,SOCAlert,Low,Open,CloudSec,api-gateway,2025-10-04T10:00:00,43,https://example.com/cortex/119
+Numonix,SOCAlert,Low,In Progress,DevSecOps,backend-api,2025-09-19T10:00:00,53,https://example.com/numonix/120
+GHAS,SOCAlert,Medium,Closed,CloudSec,infra-iac,2025-11-13T10:00:00,20,https://example.com/ghas/121
+Numonix,ThreatIntel,Critical,Open,SOC,api-gateway,2025-09-02T10:00:00,57,https://example.com/numonix/122
+GHAS,SOCAlert,Low,Open,SOC,backend-api,2025-11-12T10:00:00,20,https://example.com/ghas/123
+GHAS,SOCAlert,Low,In Progress,CloudSec,api-gateway,2025-11-12T10:00:00,11,https://example.com/ghas/124
+Cortex,CodeScanning,Low,In Progress,SOC,infra-iac,2025-11-08T10:00:00,9,https://example.com/cortex/125
+AWS_SecurityHub,SOCAlert,Medium,Open,SOC,web-frontend,2025-09-02T10:00:00,13,https://example.com/aws_securityhub/126
+Numonix,CodeScanning,High,Closed,CloudSec,web-frontend,2025-10-01T10:00:00,8,https://example.com/numonix/127
+Cortex,Misconfiguration,Medium,In Progress,CloudSec,backend-api,2025-10-27T10:00:00,53,https://example.com/cortex/128
+AWS_SecurityHub,SOCAlert,High,Open,DevSecOps,api-gateway,2025-11-08T10:00:00,31,https://example.com/aws_securityhub/129
+Numonix,SOCAlert,High,Open,CloudSec,mobile-app,2025-09-22T10:00:00,2,https://example.com/numonix/130
+Numonix,CodeScanning,Medium,Closed,SOC,backend-api,2025-10-16T10:00:00,45,https://example.com/numonix/131
+Cortex,ThreatIntel,Low,Closed,CloudSec,infra-iac,2025-09-15T10:00:00,50,https://example.com/cortex/132
+Numonix,ThreatIntel,Critical,Open,CloudSec,api-gateway,2025-11-02T10:00:00,38,https://example.com/numonix/133
+Cortex,CodeScanning,Critical,Closed,CloudSec,mobile-app,2025-11-01T10:00:00,7,https://example.com/cortex/134
+Numonix,Misconfiguration,Medium,Open,SOC,mobile-app,2025-11-10T10:00:00,25,https://example.com/numonix/135
+Cortex,ThreatIntel,High,Closed,DevSecOps,web-frontend,2025-10-16T10:00:00,5,https://example.com/cortex/136
+Cortex,SOCAlert,High,Open,CloudSec,mobile-app,2025-09-12T10:00:00,26,https://example.com/cortex/137
+AWS_SecurityHub,Misconfiguration,Medium,Closed,SOC,mobile-app,2025-09-22T10:00:00,62,https://example.com/aws_securityhub/138
+Cortex,Misconfiguration,Medium,Open,CloudSec,web-frontend,2025-09-18T10:00:00,51,https://example.com/cortex/139
+Cortex,CodeScanning,Critical,In Progress,DevSecOps,mobile-app,2025-10-18T10:00:00,48,https://example.com/cortex/140
+Cortex,Misconfiguration,Low,Closed,CloudSec,web-frontend,2025-10-20T10:00:00,4,https://example.com/cortex/141
+Cortex,ThreatIntel,High,Closed,DevSecOps,infra-iac,2025-11-12T10:00:00,53,https://example.com/cortex/142
+GHAS,SOCAlert,High,Open,DevSecOps,mobile-app,2025-09-04T10:00:00,13,https://example.com/ghas/143
+AWS_SecurityHub,SOCAlert,High,In Progress,CloudSec,mobile-app,2025-11-04T10:00:00,20,https://example.com/aws_securityhub/144
+Numonix,ThreatIntel,Critical,In Progress,SOC,infra-iac,2025-08-25T10:00:00,48,https://example.com/numonix/145
+AWS_SecurityHub,CodeScanning,Low,In Progress,DevSecOps,mobile-app,2025-11-16T10:00:00,48,https://example.com/aws_securityhub/146
+Cortex,CodeScanning,Critical,In Progress,CloudSec,backend-api,2025-10-18T10:00:00,12,https://example.com/cortex/147
+AWS_SecurityHub,Misconfiguration,Critical,Open,CloudSec,backend-api,2025-11-01T10:00:00,27,https://example.com/aws_securityhub/148
+GHAS,ThreatIntel,High,Closed,DevSecOps,backend-api,2025-09-08T10:00:00,1,https://example.com/ghas/149
+Cortex,Misconfiguration,High,Open,SOC,mobile-app,2025-09-04T10:00:00,4,https://example.com/cortex/150
+AWS_SecurityHub,ThreatIntel,Critical,In Progress,DevSecOps,api-gateway,2025-08-23T10:00:00,23,https://example.com/aws_securityhub/151
+Cortex,CodeScanning,Critical,Open,SOC,infra-iac,2025-08-29T10:00:00,61,https://example.com/cortex/152
+Numonix,SOCAlert,Medium,Closed,SOC,web-frontend,2025-10-24T10:00:00,29,https://example.com/numonix/153
+GHAS,CodeScanning,Medium,In Progress,SOC,web-frontend,2025-10-21T10:00:00,52,https://example.com/ghas/154
+Numonix,CodeScanning,Critical,In Progress,SOC,infra-iac,2025-08-31T10:00:00,42,https://example.com/numonix/155
+AWS_SecurityHub,ThreatIntel,Critical,Open,CloudSec,api-gateway,2025-10-08T10:00:00,68,https://example.com/aws_securityhub/156
+Cortex,CodeScanning,Low,Closed,SOC,infra-iac,2025-11-18T10:00:00,15,https://example.com/cortex/157
+AWS_SecurityHub,ThreatIntel,Low,In Progress,DevSecOps,infra-iac,2025-10-18T10:00:00,52,https://example.com/aws_securityhub/158
+Numonix,ThreatIntel,Critical,In Progress,CloudSec,mobile-app,2025-10-07T10:00:00,20,https://example.com/numonix/159
+Numonix,SOCAlert,Critical,Open,DevSecOps,web-frontend,2025-09-02T10:00:00,48,https://example.com/numonix/160
+AWS_SecurityHub,ThreatIntel,Critical,Closed,SOC,api-gateway,2025-11-14T10:00:00,16,https://example.com/aws_securityhub/161
+Numonix,ThreatIntel,Medium,Closed,CloudSec,web-frontend,2025-11-05T10:00:00,40,https://example.com/numonix/162
+Cortex,Misconfiguration,Critical,Closed,SOC,backend-api,2025-11-13T10:00:00,62,https://example.com/cortex/163
+AWS_SecurityHub,CodeScanning,Critical,In Progress,SOC,mobile-app,2025-09-25T10:00:00,29,https://example.com/aws_securityhub/164
+Numonix,CodeScanning,Critical,Closed,SOC,mobile-app,2025-09-13T10:00:00,35,https://example.com/numonix/165
+Cortex,Misconfiguration,Medium,In Progress,DevSecOps,backend-api,2025-11-01T10:00:00,52,https://example.com/cortex/166
+GHAS,CodeScanning,High,Closed,SOC,web-frontend,2025-10-27T10:00:00,28,https://example.com/ghas/167
+Numonix,ThreatIntel,Low,In Progress,CloudSec,backend-api,2025-09-29T10:00:00,42,https://example.com/numonix/168
+GHAS,CodeScanning,Critical,Open,DevSecOps,api-gateway,2025-11-15T10:00:00,11,https://example.com/ghas/169
+Cortex,SOCAlert,Low,Closed,CloudSec,infra-iac,2025-10-13T10:00:00,35,https://example.com/cortex/170
+AWS_SecurityHub,ThreatIntel,Critical,In Progress,CloudSec,web-frontend,2025-11-15T10:00:00,63,https://example.com/aws_securityhub/171
+Cortex,CodeScanning,Critical,Open,CloudSec,api-gateway,2025-08-21T10:00:00,27,https://example.com/cortex/172
+Cortex,ThreatIntel,High,Open,CloudSec,mobile-app,2025-09-05T10:00:00,1,https://example.com/cortex/173
+Numonix,Misconfiguration,Low,Open,DevSecOps,infra-iac,2025-10-24T10:00:00,72,https://example.com/numonix/174
+Cortex,SOCAlert,Critical,In Progress,SOC,web-frontend,2025-08-23T10:00:00,59,https://example.com/cortex/175
+GHAS,SOCAlert,Medium,Closed,CloudSec,api-gateway,2025-11-19T10:00:00,54,https://example.com/ghas/176
+Cortex,Misconfiguration,Critical,In Progress,DevSecOps,mobile-app,2025-11-08T10:00:00,59,https://example.com/cortex/177
+Cortex,SOCAlert,Critical,In Progress,DevSecOps,backend-api,2025-11-04T10:00:00,52,https://example.com/cortex/178
+GHAS,Misconfiguration,Low,In Progress,SOC,mobile-app,2025-10-02T10:00:00,22,https://example.com/ghas/179
+GHAS,ThreatIntel,Critical,Closed,SOC,backend-api,2025-10-04T10:00:00,19,https://example.com/ghas/180
+AWS_SecurityHub,Misconfiguration,Critical,Open,CloudSec,backend-api,2025-11-06T10:00:00,20,https://example.com/aws_securityhub/181
+GHAS,SOCAlert,High,Closed,CloudSec,infra-iac,2025-11-16T10:00:00,42,https://example.com/ghas/182
+Cortex,SOCAlert,High,In Progress,DevSecOps,infra-iac,2025-11-09T10:00:00,39,https://example.com/cortex/183
+Cortex,ThreatIntel,Critical,In Progress,SOC,web-frontend,2025-10-19T10:00:00,58,https://example.com/cortex/184
+GHAS,CodeScanning,Critical,In Progress,CloudSec,web-frontend,2025-11-07T10:00:00,65,https://example.com/ghas/185
+Numonix,SOCAlert,Low,Closed,SOC,web-frontend,2025-11-02T10:00:00,25,https://example.com/numonix/186
+Cortex,SOCAlert,Low,Closed,DevSecOps,web-frontend,2025-09-03T10:00:00,44,https://example.com/cortex/187
+GHAS,SOCAlert,High,Open,DevSecOps,infra-iac,2025-10-27T10:00:00,67,https://example.com/ghas/188
+AWS_SecurityHub,SOCAlert,Medium,In Progress,CloudSec,infra-iac,2025-10-03T10:00:00,7,https://example.com/aws_securityhub/189
+Cortex,SOCAlert,Critical,In Progress,DevSecOps,api-gateway,2025-09-26T10:00:00,33,https://example.com/cortex/190
+AWS_SecurityHub,ThreatIntel,Medium,Open,SOC,backend-api,2025-09-29T10:00:00,51,https://example.com/aws_securityhub/191
+AWS_SecurityHub,ThreatIntel,Critical,In Progress,SOC,infra-iac,2025-09-06T10:00:00,68,https://example.com/aws_securityhub/192
+GHAS,ThreatIntel,Low,Closed,CloudSec,web-frontend,2025-09-29T10:00:00,24,https://example.com/ghas/193
+AWS_SecurityHub,Misconfiguration,Medium,In Progress,DevSecOps,backend-api,2025-09-09T10:00:00,10,https://example.com/aws_securityhub/194
+Cortex,CodeScanning,Critical,Closed,SOC,api-gateway,2025-11-13T10:00:00,44,https://example.com/cortex/195
+AWS_SecurityHub,Misconfiguration,Low,Open,DevSecOps,backend-api,2025-10-16T10:00:00,6,https://example.com/aws_securityhub/196
+Numonix,SOCAlert,Medium,Closed,SOC,backend-api,2025-11-07T10:00:00,37,https://example.com/numonix/197
+Numonix,SOCAlert,High,Closed,DevSecOps,mobile-app,2025-09-14T10:00:00,48,https://example.com/numonix/198
+Numonix,SOCAlert,Low,In Progress,CloudSec,api-gateway,2025-09-10T10:00:00,26,https://example.com/numonix/199
+AWS_SecurityHub,ThreatIntel,Medium,Open,SOC,infra-iac,2025-10-30T10:00:00,14,https://example.com/aws_securityhub/200
+GHAS,SOCAlert,Medium,Open,DevSecOps,mobile-app,2025-10-25T10:00:00,19,https://example.com/ghas/201
+Numonix,CodeScanning,Critical,Open,CloudSec,mobile-app,2025-10-13T10:00:00,7,https://example.com/numonix/202
+Numonix,ThreatIntel,Medium,Open,CloudSec,web-frontend,2025-09-18T10:00:00,4,https://example.com/numonix/203
+Cortex,Misconfiguration,Critical,Closed,SOC,mobile-app,2025-09-07T10:00:00,5,https://example.com/cortex/204
+Cortex,SOCAlert,Low,Closed,DevSecOps,infra-iac,2025-11-07T10:00:00,1,https://example.com/cortex/205
+GHAS,SOCAlert,Critical,In Progress,DevSecOps,backend-api,2025-09-04T10:00:00,37,https://example.com/ghas/206
+AWS_SecurityHub,SOCAlert,Medium,Open,DevSecOps,backend-api,2025-11-10T10:00:00,59,https://example.com/aws_securityhub/207
+GHAS,CodeScanning,Critical,In Progress,SOC,api-gateway,2025-11-09T10:00:00,66,https://example.com/ghas/208
+AWS_SecurityHub,ThreatIntel,High,In Progress,CloudSec,web-frontend,2025-09-20T10:00:00,54,https://example.com/aws_securityhub/209
+AWS_SecurityHub,CodeScanning,Critical,Closed,CloudSec,web-frontend,2025-10-09T10:00:00,61,https://example.com/aws_securityhub/210
+GHAS,ThreatIntel,Low,In Progress,CloudSec,web-frontend,2025-08-29T10:00:00,45,https://example.com/ghas/211
+AWS_SecurityHub,Misconfiguration,Critical,Closed,SOC,mobile-app,2025-08-26T10:00:00,46,https://example.com/aws_securityhub/212
+Cortex,Misconfiguration,High,Closed,CloudSec,infra-iac,2025-09-07T10:00:00,9,https://example.com/cortex/213
+Numonix,Misconfiguration,Critical,In Progress,DevSecOps,web-frontend,2025-08-26T10:00:00,41,https://example.com/numonix/214
+Cortex,CodeScanning,Low,Closed,CloudSec,mobile-app,2025-11-11T10:00:00,25,https://example.com/cortex/215
+Cortex,ThreatIntel,Medium,Open,SOC,mobile-app,2025-09-05T10:00:00,48,https://example.com/cortex/216
+Numonix,ThreatIntel,Low,Closed,CloudSec,infra-iac,2025-09-13T10:00:00,64,https://example.com/numonix/217
+Numonix,SOCAlert,Medium,Closed,CloudSec,web-frontend,2025-08-31T10:00:00,56,https://example.com/numonix/218
+AWS_SecurityHub,ThreatIntel,Medium,In Progress,DevSecOps,web-frontend,2025-11-13T10:00:00,38,https://example.com/aws_securityhub/219
+Cortex,Misconfiguration,Low,Closed,SOC,infra-iac,2025-11-17T10:00:00,57,https://example.com/cortex/220
+Cortex,SOCAlert,Low,Open,SOC,mobile-app,2025-09-25T10:00:00,8,https://example.com/cortex/221
+GHAS,CodeScanning,Low,In Progress,SOC,backend-api,2025-09-08T10:00:00,57,https://example.com/ghas/222
+GHAS,ThreatIntel,High,Open,DevSecOps,mobile-app,2025-10-09T10:00:00,5,https://example.com/ghas/223
+AWS_SecurityHub,CodeScanning,Low,In Progress,CloudSec,infra-iac,2025-11-02T10:00:00,18,https://example.com/aws_securityhub/224
+Cortex,Misconfiguration,Low,In Progress,SOC,mobile-app,2025-09-04T10:00:00,4,https://example.com/cortex/225
+AWS_SecurityHub,CodeScanning,Low,Closed,CloudSec,api-gateway,2025-09-23T10:00:00,34,https://example.com/aws_securityhub/226
+Numonix,Misconfiguration,High,Closed,CloudSec,infra-iac,2025-09-05T10:00:00,18,https://example.com/numonix/227
+GHAS,CodeScanning,Low,Open,SOC,infra-iac,2025-11-16T10:00:00,41,https://example.com/ghas/228
+Cortex,ThreatIntel,Critical,Closed,SOC,mobile-app,2025-09-10T10:00:00,23,https://example.com/cortex/229
+Cortex,Misconfiguration,High,Open,DevSecOps,backend-api,2025-10-23T10:00:00,4,https://example.com/cortex/230
+Cortex,CodeScanning,Medium,In Progress,SOC,backend-api,2025-08-29T10:00:00,40,https://example.com/cortex/231
+Numonix,CodeScanning,Low,Closed,CloudSec,infra-iac,2025-09-06T10:00:00,41,https://example.com/numonix/232
+GHAS,ThreatIntel,Low,In Progress,SOC,api-gateway,2025-09-06T10:00:00,71,https://example.com/ghas/233
+AWS_SecurityHub,CodeScanning,High,In Progress,SOC,web-frontend,2025-10-26T10:00:00,20,https://example.com/aws_securityhub/234
+Cortex,ThreatIntel,High,Open,CloudSec,backend-api,2025-10-26T10:00:00,37,https://example.com/cortex/235
+GHAS,ThreatIntel,Medium,Open,SOC,api-gateway,2025-09-06T10:00:00,39,https://example.com/ghas/236
+GHAS,Misconfiguration,High,Closed,SOC,backend-api,2025-11-13T10:00:00,44,https://example.com/ghas/237
+GHAS,ThreatIntel,Critical,Open,DevSecOps,api-gateway,2025-11-12T10:00:00,27,https://example.com/ghas/238
+Numonix,ThreatIntel,Critical,In Progress,SOC,api-gateway,2025-11-11T10:00:00,39,https://example.com/numonix/239
+Numonix,SOCAlert,High,Closed,CloudSec,mobile-app,2025-08-30T10:00:00,8,https://example.com/numonix/240
+AWS_SecurityHub,Misconfiguration,Low,In Progress,CloudSec,infra-iac,2025-10-03T10:00:00,19,https://example.com/aws_securityhub/241
+Cortex,Misconfiguration,Medium,Closed,CloudSec,infra-iac,2025-10-07T10:00:00,66,https://example.com/cortex/242
+GHAS,ThreatIntel,Medium,Open,CloudSec,web-frontend,2025-10-17T10:00:00,32,https://example.com/ghas/243
+AWS_SecurityHub,SOCAlert,Critical,Open,CloudSec,infra-iac,2025-09-21T10:00:00,21,https://example.com/aws_securityhub/244
+Cortex,SOCAlert,Medium,Open,DevSecOps,infra-iac,2025-10-23T10:00:00,40,https://example.com/cortex/245
+Numonix,SOCAlert,Critical,Open,CloudSec,api-gateway,2025-09-20T10:00:00,28,https://example.com/numonix/246
+Cortex,SOCAlert,Critical,Open,CloudSec,infra-iac,2025-09-26T10:00:00,69,https://example.com/cortex/247
+GHAS,ThreatIntel,Critical,In Progress,DevSecOps,mobile-app,2025-10-11T10:00:00,47,https://example.com/ghas/248
+GHAS,Misconfiguration,Low,Open,SOC,api-gateway,2025-10-06T10:00:00,71,https://example.com/ghas/249
+Cortex,ThreatIntel,Critical,In Progress,SOC,infra-iac,2025-11-08T10:00:00,16,https://example.com/cortex/250
