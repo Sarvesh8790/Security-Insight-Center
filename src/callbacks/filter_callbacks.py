@@ -1,11 +1,7 @@
-"""
-Filter-related callbacks
-"""
 from dash import Input, Output, State, callback_context
 from src.data.loader import load_security_data, get_filtered_data
 from src.utils.metrics import calculate_kpis, calculate_trend_comparison
 from src.utils.logger import logger
-
 
 def register_filter_callbacks(app):
     """Register filter callbacks"""
@@ -54,8 +50,6 @@ def register_filter_callbacks(app):
             return None, None, None, None, None
         return None, None, None, None, None
 
-
-# NEW CALLBACK – top level (not inside register_filter_callbacks)
     @app.callback(
         Output("trend-summary", "children"),
         [Input("source-filter", "value"),
@@ -66,7 +60,7 @@ def register_filter_callbacks(app):
          Input("refresh-interval", "n_intervals")]
     )
     def update_trend_summary(source_val, severity_val, status_val, team_val, repo_val, n):
-        """Show week-over-week trend in total findings."""
+        """Show week-over-week trend in total findings"""
         try:
             df = load_security_data()
             filtered = get_filtered_data(df, source_val, severity_val,

@@ -6,7 +6,7 @@ from config.settings import AUTO_REFRESH_INTERVAL
 from config.theme import CYBER_THEME
 
 def create_layout():
-    """Create the complete dashboard layout with top filters and right sidebar"""
+    """Create the complete dashboard layout with all features"""
     
     # Load initial data
     df = load_security_data()
@@ -14,7 +14,7 @@ def create_layout():
     builder_columns = [c for c in df.columns if c not in ["tool_url", "View_Link"]]
     
     return html.Div([
-        # Hidden store for chart builder state
+        # Hidden stores
         dcc.Store(id="custom-charts-store", data=[]),
         
         # Header
@@ -57,7 +57,7 @@ def create_layout():
                     n_clicks=0,
                     style={
                         "padding": "10px 20px",
-                        "backgroundColor": CYBER_THEME["warning"],
+                        "backgroundColor": "#F59E0B",
                         "color": "white",
                         "border": "none",
                         "borderRadius": "6px",
@@ -70,7 +70,7 @@ def create_layout():
                 )
             ]),
             
-            # Filters Container (Collapsible)
+            # Filters Container
             html.Div([
                 html.Div([
                     # Source Filter
@@ -149,56 +149,57 @@ def create_layout():
             })
         ]),
         
-        # KPI Cards Row
-        create_kpi_row([
-            create_kpi_card("Total Findings", "0", card_id="total-findings"),
-            create_kpi_card("Open Findings", "0", card_id="open-findings"),
-            create_kpi_card("Critical Open", "0", card_id="critical-open"),
-            create_kpi_card("Avg MTTR", "0h", card_id="avg-mttr")
-        ]),
+        # KPI Cards Row + Risk Gauge
+        html.Div([
+            html.Div(
+                create_kpi_row([
+                    create_kpi_card("Total Findings", "0", card_id="total-findings"),
+                    create_kpi_card("Open Findings", "0", card_id="open-findings"),
+                    create_kpi_card("Critical Open", "0", card_id="critical-open"),
+                    create_kpi_card("Avg MTTR", "0h", card_id="avg-mttr"),
+                ]),
+                style={"flex": "1"}
+            ),
+            html.Div(
+                dcc.Graph(id="risk-gauge"),
+                style={"flex": "0 0 300px", "marginLeft": "16px"}
+            ),
+        ], style={"display": "flex", "flexWrap": "wrap", "gap": "16px", "marginBottom": "16px"}),
         
-        # Main Content Area - Charts (Left) + Chart Builder (Right Sidebar)
+        # Main Content Area
         html.Div([
             # LEFT: Main Charts Area
             html.Div([
-                # ROW 1: Severity Pie + Trend Line (2 graphs side by side)
+                # ROW 1: Severity Pie + Trend Line
                 html.Div([
-                    html.Div([
-                        dcc.Graph(id="severity-chart")
-                    ], style={"flex": "1", "minWidth": "350px"}),
-                    html.Div([
-                        dcc.Graph(id="trend-chart")
-                    ], style={"flex": "1", "minWidth": "350px"}),
-                ], style={
-                    "display": "flex",
-                    "gap": "16px",
-                    "marginBottom": "24px",
-                    "flexWrap": "wrap"
-                }),
+                    html.Div([dcc.Graph(id="severity-chart")], style={"flex": "1", "minWidth": "350px"}),
+                    html.Div([dcc.Graph(id="trend-chart")], style={"flex": "1", "minWidth": "350px"}),
+                ], style={"display": "flex", "gap": "16px", "marginBottom": "24px", "flexWrap": "wrap"}),
                 
-                # ROW 2: Severity by Week (Full width)
+                # ROW 2: Severity by Week
                 html.Div([
                     dcc.Graph(id="severity-week-chart")
                 ], style={"marginBottom": "24px"}),
                 
-                # ROW 3: All remaining graphs (3 graphs in a row)
+                # Trend Summary
+                html.Div(
+                    id="trend-summary",
+                    style={"color": CYBER_THEME["text_muted"], "fontSize": "13px", "marginBottom": "16px", "textAlign": "center"}
+                ),
+                
+                # ROW 3: Attack Timeline Heatmap
                 html.Div([
-                    html.Div([
-                        dcc.Graph(id="source-chart")
-                    ], style={"flex": "1", "minWidth": "280px"}),
-                    html.Div([
-                        dcc.Graph(id="category-chart")
-                    ], style={"flex": "1", "minWidth": "280px"}),
-                    html.Div([
-                        dcc.Graph(id="repos-chart")
-                    ], style={"flex": "1", "minWidth": "280px"}),
-                ], style={
-                    "display": "flex",
-                    "gap": "16px",
-                    "marginBottom": "24px",
-                    "flexWrap": "wrap"
-                }),
-                # ROW 4: Custom Charts Section
+                    dcc.Graph(id="attack-heatmap")
+                ], style={"marginBottom": "24px"}),
+                
+                # ROW 4: Source + Category + Repos
+                html.Div([
+                    html.Div([dcc.Graph(id="source-chart")], style={"flex": "1", "minWidth": "280px"}),
+                    html.Div([dcc.Graph(id="category-chart")], style={"flex": "1", "minWidth": "280px"}),
+                    html.Div([dcc.Graph(id="repos-chart")], style={"flex": "1", "minWidth": "280px"}),
+                ], style={"display": "flex", "gap": "16px", "marginBottom": "24px", "flexWrap": "wrap"}),
+                
+                # ROW 5: Custom Charts Section
                 html.Div([
                     html.Div([
                         html.H3("🎨 Custom Charts", 
@@ -226,23 +227,7 @@ def create_layout():
                               "marginBottom": "16px"
                           })
                 ]),
-                # KPI Cards Row + Risk Gauge
-                html.Div([
-                    html.Div(
-                        create_kpi_row([
-                            create_kpi_card("Total Findings", "0", card_id="total-findings"),
-                            create_kpi_card("Open Findings", "0", card_id="open-findings"),
-                            create_kpi_card("Critical Open", "0", card_id="critical-open"),
-                            create_kpi_card("Avg MTTR", "0h", card_id="avg-mttr"),
-                        ]),
-                        style={"flex": "1"}
-                    ),
-                    html.Div(
-                        dcc.Graph(id="risk-gauge"),
-                        style={"flex": "0 0 320px", "marginLeft": "16px"}
-                    ),
-                ], style={"display": "flex", "flexWrap": "wrap", "gap": "16px", "marginBottom": "16px"}),
-
+                
                 # Findings Table
                 html.Div([
                     html.Div([
@@ -254,51 +239,39 @@ def create_layout():
                     html.Div(id="findings-table-container")
                 ])
                 
-            ], style={"flex": "1", "marginRight": "24px"}),
-            # ROW 3.5: Attack Timeline Heatmap (full width)
-            html.Div([
-                dcc.Graph(id="attack-heatmap")
-            ], style={"marginBottom": "24px"}),
-
-            # Trend summary text (WoW / MoM)
-            html.Div(
-                id="trend-summary",
-                style={"color": CYBER_THEME["text_muted"], "fontSize": "12px", "marginBottom": "12px"}
-            ),
-
+            ], id="main-charts-area", style={"flex": "1", "marginRight": "24px", "transition": "all 0.3s ease"}),
             
-            # RIGHT SIDEBAR: Chart Builder
+            # RIGHT SIDEBAR: Collapsible Chart Builder
             html.Div([
-                html.Div([
-                    html.Button(
-                        "📊 Chart Builder",
-                        id="toggle-builder",
-                        n_clicks=0,
-                        style={
-                            "width": "100%",
-                            "padding": "12px",
-                            "backgroundColor": CYBER_THEME["accent_soft"],
-                            "color": "white",
-                            "border": "none",
-                            "borderRadius": "6px",
-                            "cursor": "pointer",
-                            "fontSize": "15px",
-                            "fontWeight": "600",
-                            "marginBottom": "16px"
-                        }
-                    ),
-                    html.Div(
-                        create_chart_builder_panel(builder_columns),
-                        id="builder-container",
-                        style={"display": "block"}  # Always visible on right side
-                    )
-                ])
-            ], style={
+                html.Button(
+                    "◀ Collapse",
+                    id="toggle-builder",
+                    n_clicks=0,
+                    style={
+                        "width": "100%",
+                        "padding": "12px",
+                        "backgroundColor": CYBER_THEME["accent_soft"],
+                        "color": "white",
+                        "border": "none",
+                        "borderRadius": "6px",
+                        "cursor": "pointer",
+                        "fontSize": "15px",
+                        "fontWeight": "600",
+                        "marginBottom": "16px"
+                    }
+                ),
+                html.Div(
+                    create_chart_builder_panel(builder_columns),
+                    id="builder-container",
+                    style={"display": "block"}
+                )
+            ], id="builder-sidebar", style={
                 "flex": "0 0 320px",
                 "maxHeight": "calc(100vh - 200px)",
                 "overflowY": "auto",
                 "position": "sticky",
-                "top": "20px"
+                "top": "20px",
+                "transition": "all 0.3s ease"
             })
             
         ], style={"display": "flex"}),
